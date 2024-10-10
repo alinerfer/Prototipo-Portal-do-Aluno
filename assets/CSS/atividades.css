@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --bg-color-brand: RGB(228, 23, 23);
+    --bg-color-darkest: RGB(33, 44, 58);
+    --bg-color-dark: RGB(71, 85, 105);
+    --bg-color-mid: RGB(203, 213, 225);
+    --bg-color-light: RGB(221, 228, 236);
+    --bg-color-lighest: RGB(255, 255, 255);
+}
+
+/* formatação do header */
+.header {
+    padding: 2rem;
+    width: 100%;
+    height: 8vh;
+    background-color: var(--bg-color-mid);
+    color: var(--bg-color-brand);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;   
+}
+
+.header h2 {
+    font-weight: 200;
+    font-size: 2rem;
+    padding-right: 2rem;
+
+}
+
+.icon {
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+/* fim formatação header */
+
+/* formatação do main */
+.main {
+    height: 100vh;
+    width: 100%;
+    padding: 5rem;
+    padding-left: 10rem;
+    background-color: var(--bg-color-light);
+    color: var(--bg-color-brand);
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    
+}
+
+.main h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+
+.box1 {
+    height: 7vh;
+    width: 60%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    background-color: var(--bg-color-dark);
+    color: var(--bg-color-lighest);
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+.box2 {
+    height: 7vh;
+    width: 60%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    background-color: var(--bg-color-dark);
+    color: var(--bg-color-lighest);
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+.box3 {
+    height: 7vh;
+    width: 60%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    background-color: var(--bg-color-dark);
+    color: var(--bg-color-lighest);
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+.box4 {
+    height: 7vh;
+    width: 60%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    background-color: var(--bg-color-dark);
+    color: var(--bg-color-lighest);
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+/* fim formatação main */
+
+/* formatação footer */
+.footer {
+    height: 5vh;
+    width: 100%;
+    padding-top: 0.5rem;
+    background-color: var(--bg-color-brand);
+    color: var(--bg-color-lighest);
+    text-align: center;
+    font-size: 0.8rem;
+}
+/* fim formatação do footer */
